@@ -14,10 +14,10 @@ int main()
 			if (prime(n-i)) 
 			{
 				cout << n << " = " << i << " + " << n-i << endl;
-                flag = true;
-            }
+                                flag = true;
+                        }
+                }
         }
-    }
 
     if (!flag)
     cout << n << "Not possible";
